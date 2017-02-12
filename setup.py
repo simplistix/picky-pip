@@ -1,15 +1,15 @@
 # See license.txt for license details.
-# Copyright (c) 2015 Simplistix Ltd
+# Copyright (c) 2017 Chris Withers
 
-import os, sys
+import os
 
 from setuptools import setup, find_packages
 
 base_dir = os.path.dirname(__file__)
 
 setup(
-    name='picky',
-    version='0.9.2',
+    name='picky-pip',
+    version='2.0.0dev',
     author='Chris Withers',
     author_email='chris@simplistix.co.uk',
     license='MIT',
@@ -18,23 +18,23 @@ setup(
         "are as specified in their requirements files."
     ),
     long_description=open(os.path.join(base_dir,'docs','description.rst')).read(),
-    url='https://github.com/Simplistix/picky',
+    url='https://github.com/Simplistix/picky-pip',
     classifiers=[
         # 'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
     extras_require={
-        ':python_version=="2.6"': ['argparse'],
         'test': [
             'testfixtures',
             'nose',

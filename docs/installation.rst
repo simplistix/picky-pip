@@ -3,7 +3,7 @@ Installation Instructions
 
 The best way to install picky is with pip::
 
-  pip install picky
+  pip install picky-pip
 
 Of course, once it's installed, make sure it's in your ``requirements.txt``!
 
