@@ -1,44 +1,22 @@
-|Travis|_ |Docs|_
+Picky for pip
+=============
 
-.. |Travis| image:: https://api.travis-ci.org/Simplistix/picky-pip.svg?branch=master
-.. _Travis: https://travis-ci.org/Simplistix/picky-pip
-
-.. |Coveralls| image:: https://coveralls.io/repos/Simplistix/picky-pip/badge.svg?branch=master
-.. _Coveralls: https://coveralls.io/r/Simplistix/picky-pip?branch=master
-
-.. |Docs| image:: https://readthedocs.org/projects/picky-pip/badge
-.. _Docs: http://picky-pip.readthedocs.org/en/latest/
-
-Picky
-=====
-
-Picky is a tool for making sure that the packages you have installed
-with `pip`__ or `conda`__ match those you have specified.
+This may, at some stage, but potentially never, be a tool for making sure that the packages you have installed
+with `pip`__ match those you have specified.
 
 __ https://pip.pypa.io/en/stable/
 
-__ http://conda.pydata.org/docs/
+However, it's not getting a lot of love right now, so:
 
-This package provides a version of picky targeted at virtualenvs and other
-environments where pip is used to manage packages.
-If you require the version that targets conda environments, see `picky-conda`__
+- if you want the original version of picky, please see `those docs`__ and stick to picky 0.9.1.
 
-__ http://github.com/Simplistix/picky-conda
+__ http://picky.readthedocs.io/en/0.9.1/
 
-Installation
-============
+- look to another tool such and `pip-tools`__ or `pipenv`__.
 
-Do the following in your virtualenv or conda environment::
+__ https://pypi.python.org/pypi/pip-tools
 
-  pip install picky-pip
-  
-Documentation
-=============
-
-Documentation can be found in the ``docs`` directory of the picky package.
-
-The latest documentation can also be found at:
-http://picky.readthedocs.org/en/latest/
+__ https://docs.pipenv.org/
 
 Problems?
 =========
